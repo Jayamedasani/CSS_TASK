@@ -1,0 +1,498 @@
+body{
+    margin:0px;
+}
+header{
+    background-color: black;
+    height: 85px;
+    padding-left: 150px;
+    padding-right: 50px;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+.header-row{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.header-logo{
+    width:20%;
+    align-items: center;
+}
+.header-logo h1{
+    color: white;
+    padding: 0px 10px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+.header-nav{
+    width:60%;
+    padding-left:90px;
+}
+.header-nav nav a{
+    text-decoration: none;
+    color: white;
+    padding: 0px 25px 0px 10px;
+    font-family: verdana;
+    font-size: 15px;
+}
+.header-button{
+    width:20%;
+}
+.header-button button{
+    font-family: verdana;
+    font-size: 15px;
+    color: white;
+    padding: 10px 40px;
+    background-color: rgb(71, 196, 245);
+    border-radius: 5px;
+}
+.banner-container{
+    height:700px;
+    position: relative;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+.banner-container .banner-content{
+    width:45%;
+    height: 100%;
+    position: absolute;
+    color: white;
+    padding:  95px 0px 150px 160px;
+    font-family: verdana;
+}
+.banner-container .banner-content h3{
+    font-size: 35px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+.banner-container .banner-content p{
+    font-size: 25px;
+    padding-right: 30px;
+    padding-bottom: 60px;
+}
+.banner-container .banner-content button{
+    background-color: transparent;
+    color:rgb(111, 234, 243);
+    border-color: rgb(111, 234, 243);
+    padding: 20px 53px;
+    border-radius: 5px;
+    font-size: 17px;
+}
+.banner-container .banner-image{
+    position:absolute;
+    bottom: 0;
+    right: 0;
+    width:45%;
+    height:100%;
+}
+.banner-container .banner-image img{
+    height: 100%;
+   
+}
+.services{
+    height: 700px;
+    background-color: rgba(211, 211, 211,0.2);
+    padding: 35px 60px 0px 135px;
+    margin: 0px;
+    text-align: center;
+}
+.services .services-content{
+    text-align: center;
+    padding-left: 20px;
+}
+.services .services-content h5{
+    color: rgb(48, 212, 212);
+    text-transform: uppercase;
+    font-family: arial;
+    margin: 0px;
+    font-size: 17px;
+    padding: 19px 0px 0px 0px;
+}
+.services .services-content p{
+    font-size: 37px;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 22px 0px 0px 0px;
+    margin: 0px;
+}
+.services .services-box{
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 55px;
+}
+.services .services-box .s-box{
+    height:300px;
+    width:350px;
+    margin:30px 60px;
+    list-style-type: none;
+    text-align: center;
+    font-family: verdana;
+}
+.services .services-box .s-box h3{
+    font-size: 22px;
+}
+.services .services-box .s-box .s-icon1{
+    height: 80px;
+    width: 80px;
+    border-color: black;
+    background-color: skyblue;
+    border-radius: 40px 0px 40px 40px ;
+    box-shadow: 5px 5px 15px rgb(184, 228, 243);
+    margin:auto;
+}
+.services .services-box .s-box .s-icon2{
+    height: 80px;
+    width: 80px;
+    border-color: black;
+    background-color: rgb(144, 238, 144);
+    border-radius: 40px 0px 40px 40px ;
+    box-shadow: 5px 5px 15px rgb(167, 245, 167);
+    margin:auto;
+}
+.services .services-box .s-box .s-icon3{
+    height: 80px;
+    width: 80px;
+    border-color: black;
+    background-color: orange;
+    border-radius: 40px 0px 40px 40px ;
+    box-shadow: 5px 5px 10px rgb(248, 201, 114);
+    margin:auto;
+}
+.services .services-box .s-box i{
+    padding: 30px;
+}
+.services button{
+    background-color: transparent;
+    border-radius: 5px;
+    border-color: rgb(84, 203, 233);
+    color: rgb(55, 181, 212);
+    text-align: center;
+    padding: 20px 50px;
+    font-family: verdana;
+    font-weight: bold;
+}
+.presentation{
+    height:850px;
+    background-color:rgba(211, 211, 211,0.2) ;
+    margin:0px;
+    padding-top: 5px;
+}
+.presentation .presentation-content{
+    text-align: center;
+    padding-left: 80px;
+}
+.presentation .presentation-content h5{
+    text-transform: uppercase;
+    color: rgb(55, 181, 212);
+    font-family: sans-serif;
+    font-size: 16px;
+    margin: 15px;
+}
+.presentation .presentation-content h2{
+    font-family: sans-serif;
+    font-size: 35px;
+}
+.presentation .presentation-images{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 60px 30px 0px 120px;
+    gap:0px;    
+    align-items: center;
+    justify-content: center;
+}
+.presentation .presentation-images .p-figure{
+    margin:0px;
+    padding:10px 15px;
+}
+.presentation .presentation-images .p-figure img{
+    width:350px;
+    height: 200px;
+}
+.presentation .presentation-images .p-figure h3{
+    font-family: verdana;
+}
+.presentation .presentation-images .p-figure p{
+    font-family: verdana;
+}
+.team{
+    height:700px;
+    background: rgba(211, 211, 211,0.2);
+    margin: 0px;
+    padding: 15px;
+}
+.team .team-content{
+    text-align: center;
+    padding-left: 80px;
+}
+.team .team-content h5{
+    text-transform: uppercase;
+    color: rgb(55, 181, 212);
+    font-family: sans-serif;
+    font-size: 16px;
+}
+.team .team-content p{
+    font-size: 32px;
+    font-weight: bold;
+    font-family: verdana;
+}
+.team .team-figures{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:30px 0px 0px 60px;
+}
+.team .team-figures .tfig img{
+    height: 330px;
+    width: 250px;
+}
+.team .team-figures .tfig{
+    list-style-type: none;
+    padding:10px 15px;
+    text-align: center;
+}
+.team .team-figures .tfig h3{
+    font-family: verdana;
+}
+.customer{
+    height:520px;
+    background-color:rgba(211, 211, 211,0.2) ;
+    margin:0px;
+    padding-top: 30px;
+}
+.customer .customer-content{
+    text-align: center;
+    padding-left: 80px;
+}
+.customer .customer-content h5{
+    text-transform: uppercase;
+    color: rgb(55, 181, 212);
+    font-family: serif;
+    font-size: 16px;
+}
+.customer .customer-content p{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: verdana;
+}
+.customer .customer-icons{
+    padding:50px 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:15px;
+}
+.customer .customer-icons .cicon{
+    border-radius: 50%;
+    border: solid;
+    border-color: rgb(197, 194, 191);
+    padding: 10px;
+    justify-content: center;
+    height:20px;
+}
+.customer .customer-icons .cbox{
+    height:200px;
+    width:600px;
+    background-color: white;
+    padding: 20px;
+    margin: 0px 30px;
+    box-shadow: 5px 5px 5px gainsboro;
+   position: relative;
+   border-radius: 5px;
+}
+.customer .customer-icons .cbox .cnav{
+    display: flex;
+    height:60px;   
+}
+.customer .customer-icons .cbox .cnav .cimg{
+    width:20%;
+}
+.customer .customer-icons .cbox .cnav img{
+    height: 50px;
+    width: 50px;
+    border-radius:50%;
+    padding:0px 10px;
+}
+.customer .customer-icons .cbox .cnav .ccontent{
+    width:50%;
+}
+.customer .customer-icons .cbox .cnav .ccontent h3{
+    margin: 0px;
+    padding: 0px;
+    font-family: verdana;
+}
+.customer .customer-icons .cbox .cnav .ccontent h6{
+    margin: 0px;
+    padding-top:5px;
+}
+.customer .customer-icons .cbox .cnav .star i{
+    color: orange;   
+}
+.customer .customer-icons .cbox .cnav .star #star-black1{
+    color: black;
+}
+.customer .customer-icons .cbox .cnav .star #star-black2{
+    color: black;
+}
+.customer .customer-icons .cbox .cboxp{
+    padding:10px;
+    font-family: verdana;
+}
+.customer .customer-icons .cbox .cboxcorner1{
+    position: absolute;
+    height:60px;
+    width:60px;
+    background-color: rgba(128, 202, 207, 0.4);
+    border-radius: 50%;
+    bottom: 20px;
+    right:20px;
+}
+.customer .customer-icons .cbox .cboxcorner2{
+    position: absolute;
+    height:50px;
+    width:50px;
+    background-color:rgba(128, 202, 207, 0.4);
+    border-radius: 50%;
+    bottom:0px;
+    right:0px;
+}
+.questions{
+    background-color: rgb(49, 48, 59);
+    height: 350px;
+    margin: 0px;
+    padding: 50px;
+}
+.questions .questions-content{
+    text-align: center;
+    color: white;
+    padding: 0px 100px;
+}
+.questions .questions-content h3{
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 40px;
+}
+.questions .questions-content h3 span{
+    font-weight: bold;
+    padding-left: 5px;
+    font-size: 40px;
+}
+.questions .questions-content p{
+    font-family: verdana;
+    font-size: 14px;
+    padding: 0px 250px;
+}
+.questions .q-button{
+    border-radius: 30px;
+    margin:40px 130px 0px 200px;
+    background-color: white;
+    height:60px;
+    display: flex;
+    padding: 0px 25px;
+    align-items: center;
+}
+.questions .q-button h5{
+    font-family: verdana;
+    font-weight: lighter;
+    margin-right: 300px;
+    color:rgb(182, 178, 178);
+}
+.questions .q-button .q-vr{
+    height:40px ;
+    border:solid rgb(182, 178, 178) 1px;
+    margin: 0px 30px;
+}
+.questions .q-button .innerbutton{
+    background-color:rgb(55, 181, 212) ;
+    padding:15px 55px;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    font-family: verdana;
+}
+.footer-main{
+    height:250px;
+    background-color: rgb(25, 19, 31);
+    margin:0px;
+    padding: 50px 100px;
+}
+.footer-main .footer1{
+    width:25%;
+    float: left;
+    color: white;
+}
+.footer-main .footer1 li{
+    list-style-type: none;
+    font-family: verdana;
+    margin: 10px 0px;
+    color:rgb(194, 188, 188);
+    font-weight: lighter;
+    font-size: 13px;
+}
+.footer-main .footer1 .f1-list li:first-child{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    color:white;
+    text-shadow: 1px 1px 1px white;
+}
+.footer-main .footer2{
+    width: 75%;
+    float: left;
+}
+.footer-main .footer2 .f2-list{
+    display: flex;
+    margin:0px 50px;
+}
+.footer-main .footer2 .f2-list .f2-item{
+    color:white;
+    margin:0px 40px;
+}
+.footer-main .footer2 .f2-list .f2-item li{
+    list-style-type: none;
+    font-family: verdana;
+    margin: 10px 0px;
+    color:rgb(194, 188, 188);
+    font-weight: lighter;
+    font-size: 13px;
+}
+.footer-main .footer2 .f2-list .f2-item li:first-child{
+    font-size: 20px;
+    
+    margin-bottom: 50px;
+    color:white;
+    text-shadow: 1px 1px 1px white;
+
+}
+footer{
+    height:100px;
+    background-color:rgb(25, 19, 31) ;
+    margin:0px;
+    padding:10px;
+    display: flex;
+    align-items: center;
+}
+footer .copyright{
+    width:70%;
+    font-family: verdana;
+    color: rgb(194, 188, 188);
+    font-size: 12px;
+    margin-left:120px;
+}
+footer .footericons{
+    width:20%;
+    color: rgb(194, 188, 188);
+}
+footer .footericons i{
+    padding:0px 10px;
+}
+footer .f-icon{
+    color: rgb(194, 188, 188);
+    margin-right:40px;
+    padding: 10px;
+    background-color:rgb(103, 180, 243);
+    border-radius: 50%;
+}
+footer .f-icon i{
+    color: white;
+}
